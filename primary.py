@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Tahlia Jones
+# date: July 16, 2021
 
 # -------------------- Section 1 -------------------- #
 
@@ -25,6 +25,8 @@ print(
 #
 # Write Code Below #
 
+for tahlia in range(5):
+    print('tahlia')
 
 # 2 - for Loop | Printing i
 #   a. Create a for loop that runs 5 times.
@@ -40,6 +42,8 @@ print(
 #
 # Write Code Below #
 
+for i in range(5):
+    print(i)
 
 # 3 - for Loop | Running According to the User
 #   a. Prompt the user for input in the form of an integer. Save it to a variable. This will be used as the argument
@@ -60,6 +64,11 @@ print(
 #
 # Write Code Below #
 
+n = int(input('>> size | '))
+s = input('>> symbol | ')
+
+for i in range(n):
+    print(s * i)
 
 # ---------- Part 2 | Direct Access ---------- #
 print(
@@ -83,6 +92,9 @@ print(
 #
 # Write Code Below #
 
+name = 'tahlia'
+for tahlia in range(i):
+    print('tahlia')
 
 # 2 - for Loop | Printing the User's Name
 #   a. Prompt input from the user in the form of their name. Save to a variable named name.
@@ -106,6 +118,9 @@ print(
 #
 # Write Code Below #
 
+name = 'tahlia jones'
+for tahliajones in range(i):
+    print(name)
 
 # ---------- Part 3 | range() variations ---------- #
 print(
@@ -143,6 +158,11 @@ print(
 #
 # Write Code Below #
 
+start = 10
+stop = 25
+print(f'\nstart = {start}, stop = {stop}')
+for i in range(start, stop):
+    print(i)
 
 # 2 - for Loop | Custom Step
 #   a. Create a for loop that runs from 5 to -5.
@@ -163,3 +183,7 @@ print(
 #
 # Write Code Below #
 
+stop = -5
+print(f'\nstop = {stop}')
+for i in range(stop):
+    print(i)
